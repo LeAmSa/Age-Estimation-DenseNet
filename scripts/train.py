@@ -10,6 +10,8 @@ train_datagen = ImageDataGenerator(rescale = 1./255)
 
 val_datagen = ImageDataGenerator(rescale = 1./255)
 
+test_datagen = ImageDataGenerator(rescale = 1./255)
+
 train_generator = train_datagen.flow_from_directory(
     TRAIN_PATH,
     target_size=(HEIGHT, WIDTH),
@@ -23,6 +25,14 @@ validation_generator = val_datagen.flow_from_directory(
     batch_size=BATCH_SIZE,
     class_mode='categorical',
     shuffle=False)
+
+test_generator = test_datagen.flow_from_directory(
+    TEST_PATH,
+    target_size=(HEIGHT, WIDTH),
+    batch_size=BATCH_SIZE,
+    class_mode='categorical',
+    shuffle=False
+)
 
 #visualize class indices
 train_generator.class_indices

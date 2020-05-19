@@ -1,9 +1,10 @@
 
+
 ##  Age range estimation based on CNN DenseNet201
 - This project represents my undergraduate final work, whose main objective was to realize age range estimation based on a convolutional neural network. As data, the recognition process occurred with cropped face images.
 - About main files in the repository:
 	 - Full dissertation (portuguese) with all the theorical and technical details: [TCC.pdf](https://github.com/LeAmSa/Age-Estimation-DenseNet/blob/master/TCC.pdf "TCC.pdf").
-	 - Full notebook with all code steps:  [DenseNet_Classification.ipynb](https://github.com/LeAmSa/Age-Estimation-DenseNet/blob/master/DenseNet_Classification.ipynb "DenseNet_Classification.ipynb").
+	 - Full notebook with all code steps:  [AgeRangeEstimationDenseNet.ipynb](https://github.com/LeAmSa/Age-Estimation-DenseNet/blob/master/AgeRangeEstimationDenseNet.ipynb "AgeRangeEstimationDenseNet.ipynb").
 	 - Script for model customization: [model_customization.py](https://github.com/LeAmSa/Age-Estimation-DenseNet/blob/master/scripts/model_customization.py "model_customization.py").
 	 - Script for training process: [train.py](https://github.com/LeAmSa/Age-Estimation-DenseNet/blob/master/scripts/train.py "train.py").
 
@@ -42,8 +43,8 @@
 
 |Experiment| Accuracy |
 |--|--|
-| 1 | 60.9% |
-| 2 | 82.67% |
-| 3 | 95.9% |
+| 1 | 62.00% |
+| 2 | 73.00% |
+| 3 | 96.85% |
 
 

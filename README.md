@@ -1,15 +1,21 @@
 
 
 ##  Age range estimation based on CNN DenseNet201
-- This project represents my undergraduate final work, whose main objective was to realize age range estimation based on a convolutional neural network. As data, the recognition process occurred with cropped face images.
+- This project represents my undergraduate final work, whose objective was to realize age range estimation based on a convolutional neural network.
+- With the technological evolution of social networks and online communities, privacy and security on the Internet have become essential. The high number of information shared by the network supports the spread of illicit content involving child pornography. Computer vision, based on neural networks  
+as a deep learning technique, can recognize characteristics associated with the  
+classification of minors and adults.
+-  The main focus was to provide subsidies for tools that can use deep learning to identify minors in eventual child pornography content.
+
 - About main files in the repository:
-	 - Full dissertation (portuguese) with all the theorical and technical details: [TCC.pdf](https://github.com/LeAmSa/Age-Estimation-DenseNet/blob/master/TCC.pdf "TCC.pdf").
+	 - Article (portuguese) with all the theorical and technical details: [ARTIGO.pdf](https://github.com/LeAmSa/Age-Estimation-DenseNet/blob/master/ARTIGO.pdf "ARTIGO.pdf").
 	 - Full notebook with all code steps:  [AgeRangeEstimationDenseNet.ipynb](https://github.com/LeAmSa/Age-Estimation-DenseNet/blob/master/AgeRangeEstimationDenseNet.ipynb "AgeRangeEstimationDenseNet.ipynb").
 	 - Script for model customization: [model_customization.py](https://github.com/LeAmSa/Age-Estimation-DenseNet/blob/master/scripts/model_customization.py "model_customization.py").
 	 - Script for training process: [train.py](https://github.com/LeAmSa/Age-Estimation-DenseNet/blob/master/scripts/train.py "train.py").
 
 ### Dataset
 ![enter image description here](https://susanqq.github.io/UTKFace/icon/logoWall2.jpg)
+- As data, the recognition process occurred with cropped face images. 
 - The dataset used to train the neural network was __UTKFace Dataset__, made for research based on age, gender, and race.
 - Files format: ``[age]_[gender]_[race]_[date&time].jpg``
 	- `[age]:` integer from 0 to 116, indicating the age;
@@ -47,4 +53,7 @@
 | 2 | 73.00% | 72.85% |
 | 3 | 96.85% | 96.85% |
 
+### Conclusions
+- The main focus was to verify the deep learning capacity to differentiate between minors and adults. With almost 97% accuracy, the DenseNet architecture was highly performative.
+-  In terms of applicability, this work showed that convolutional neural models can be seriously considered as an accurate mechanism for the identification of possible minors in digital images, considering different intervals of age group as a target for classification.
 

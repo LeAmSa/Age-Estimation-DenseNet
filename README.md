@@ -39,12 +39,12 @@
 | Dropout Keep Probability | 0.5 |
 | Batch Size | 32 |
 | Learning Rate | 0.001(Exp 1) 0.0001(Exp 2 and 3) |
-- For the proposed experiments, these were the accuracy values: 
+- For the proposed experiments, were used accuracy and f1-score as metrics, with the results below: 
 
-|Experiment| Accuracy |
-|--|--|
-| 1 | 62.00% |
-| 2 | 73.00% |
-| 3 | 96.85% |
+|Experiment| Accuracy | f1-score
+|--|--|--|
+| 1 | 62.00% | 60.35% |
+| 2 | 73.00% | 72.85% |
+| 3 | 96.85% | 96.85% |
 
 
